@@ -1,0 +1,50 @@
+/*------ Always show facet/filter panel on search results page ------*/
+
+#scrolledContent > div > div.filters-side-bar-content.filters-layout-left.ng-star-inserted {
+    visibility: visible !important;
+    margin-left: 0px; 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.filters-side-bar-content {
+    left: 0px !important;
+}
+.results-container.filters-slide-open {
+    gap: 1.5rem !important;
+}
+.filters-slide-open   .filters-side-bar-content {
+    margin-left: 0px;
+}
+#scrolledContent > div > div.search-results-wrapper {
+    right: auto;
+    left: 10px;
+    position: relative;
+}
+.filter-checkbox .mdc-checkbox, .filter-checkbox .mdc-checkbox:hover  {
+    visibility: visible;
+}
+.mat-mdc-checkbox .mdc-label .facet-name.mat-mdc-button.mat-mdc-button-base {
+    visibility: visible !important;
+    transition: visibility .5s ease;
+}
+.filter-results-count {
+    visibility: visible !important;
+}
+.search-result-list-content {
+    width:98% !important;
+}
+/*END--- Always show facet/filter panel on search results page ------*/
+
+/*------ Always show facet/filet panel in Collection Discovery pane------*/
+
+.collection-discovery-gallery-container .results-container .filters-side-bar-left {
+    visibility: visible !important;
+    margin-left: 0rem !important;
+}
+@media only screen and (max-width: 599.98px) {
+    .collection-discovery-gallery-container .results-container nde-search-filters-side-nav {
+        left: -32rem;
+ }
+}
+
+/* END--- Always show facet panel in Collection Discovery pane ------*/
