@@ -1,0 +1,13 @@
+/* ------ Always show exclude boxes in filter / facet panel ------*/
+.mat-mdc-checkbox .mat-icon {
+    display: initial !important
+};
+.mat-mdc-checkbox .mat-icon > svg {
+    width: 18px;
+    visibility: visible !important;
+};
+.mat-mdc-checkbox .exclude-btn:hover {
+    background-color: var(--sys-inverse-on-surface);
+    visibility: visible;
+}
+/* END--- Always show exclude boxes in filter / facet panel ------*/
