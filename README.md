@@ -4,6 +4,8 @@ The first dipslays the filter/facet pane by default on the left hand side of the
 
 The second ccs snippet diplays the "exclude" button in the filter/facet pane by default.
 
+The third css snippet right alighns the search result number that appears in the facet/filter pane.
+
 You add each snippet to your custom.css file in your Customization Package.
 
 If someone is wishing to improve this code, we are more than happy to acknowledge your contribution :-) 
