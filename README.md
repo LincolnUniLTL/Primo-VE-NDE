@@ -1,4 +1,4 @@
-This Github contains two css hacks for Primo VE NDE ... see https://lincoln.primo.exlibrisgroup.com/nde/home?vid=64LINCOLN_INST:NDE for examples of both.
+This Github contains two css hacks for Primo VE NDE ... see https://lincoln.primo.exlibrisgroup.com/nde/home?vid=64LINCOLN_INST:NDE for examples of all three.
 
 The first dipslays the filter/facet pane by default on the left hand side of the main results pane. The pane becomes frozen and can't be minimised on a large screen, but can can be minimised on a moblie device.
 
