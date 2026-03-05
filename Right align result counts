@@ -1,0 +1,5 @@
+/* --- Align item counts to the right ---*/
+.filter-checkbox.mat-mdc-checkbox .mdc-label div {
+    width: 100%;
+}
+/* END Align item counts to the right ---*/
