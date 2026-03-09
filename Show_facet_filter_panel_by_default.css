@@ -1,4 +1,5 @@
 /*------ Always show facet/filter panel on search results page ------*/
+/*------ NOW PART OF THE MARCH 2026 PRIMO VE RELEASE ------*/
 
 #scrolledContent > div > div.filters-side-bar-content.filters-layout-left.ng-star-inserted {
     visibility: visible !important;
@@ -46,5 +47,6 @@
         left: -32rem;
  }
 }
+
 
 /* END--- Always show facet panel in Collection Discovery pane ------*/
